@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'profile/profile_screen.dart';
+import 'profile/home_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const WhatsappProfilePage(),
+      home: HomeScreen(),
     );
   }
 }
