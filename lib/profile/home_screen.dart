@@ -10,6 +10,7 @@ class HomeScreen extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Color(0xff5263EF),
         leading: Container(
+          margin: EdgeInsets.only(left: 8),
           height: 56,
           width: 56,
           decoration: const BoxDecoration(
@@ -47,14 +48,15 @@ class HomeScreen extends StatelessWidget {
         ],
       ),
       body: CustomScrollView(
-        slivers: [SliverPersistentHeader(delegate: HomeAppBar(), pinned: false)],
+        slivers: [
+          SliverPersistentHeader(delegate: HomeAppBar(), pinned: false),
+        ],
       ),
     );
   }
 }
 
 class HomeAppBar extends SliverPersistentHeaderDelegate {
-
   final scalePointsInfoWidget = Tween<double>(begin: 1, end: 0.5);
 
   final opacityPointsInfoWidget = Tween<double>(begin: 1, end: 0);

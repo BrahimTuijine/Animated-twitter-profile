@@ -19,7 +19,7 @@ class WhatsappProfilePage extends StatelessWidget {
                 child: Column(
                   children: [
                     Text(
-                      '50 611 513',
+                      '92 529 100',
                       style: TextStyle(
                         color: Colors.grey[600],
                         fontWeight: FontWeight.bold,
@@ -27,7 +27,7 @@ class WhatsappProfilePage extends StatelessWidget {
                     ),
                     const SizedBox(height: 20),
                     Text(
-                      'Brahim tuijine',
+                      'Brahim Tuijine',
                       style: TextStyle(
                         color: Colors.grey[600],
                         fontWeight: FontWeight.bold,
